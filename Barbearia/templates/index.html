@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Barbearia</h1>
+        <a href="{{ url_for('cadastro_cliente') }}" class="btn">Cadastro de Cliente</a>
+        <a href="{{ url_for('agendamento') }}" class="btn">Agendamento de Horário</a>
+        <a href="{{ url_for('servico') }}" class="btn">Serviços</a>
+        <a href="{{ url_for('estoque') }}" class="btn">Gerenciamento de Estoque</a>
+    </div>
+</body>
+</html>
